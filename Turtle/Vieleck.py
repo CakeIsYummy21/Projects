@@ -1,0 +1,21 @@
+import turtle
+import time
+x = input("Wie viele ecken soll das Vieleck haben?")
+x = int(x)
+y = int(x)
+turtle.penup()
+turtle.speed(-1)
+turtle.left(270)
+turtle.forward(250)
+turtle.right(90)
+turtle.forward(125)
+turtle.right(180)
+turtle.pendown()
+turtle.hideturtle()
+turtle.end_fill()
+turtle.begin_fill()
+for a in range (x):
+    turtle.forward(1500/y)
+    turtle.left(360/y)
+turtle.end_fill()
+time.sleep(1000)

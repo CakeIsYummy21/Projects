@@ -1,0 +1,12 @@
+while True:
+    x = input ("Was soll x sein?")
+    y = input ("Was soll y sein?")
+    x = int(x)
+    y = int(y)
+    print ("X mal y ist", x*y)
+    print ("X geteilt durch y ist", x/y)
+    print ("X plus y ist", x+y)
+    print ("X minus y ist", x-y)
+    print ("X modulo y ist", x%y)
+    print ("X hoch y ist", x**y)
+    input()
